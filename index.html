@@ -1,117 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Rahuls cool page</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <!-- font families found on google fonts.  you can copy and paste from here that will be safe
+    for all versions of your site (https://fonts.google.com/?query=mont&preview.text=sacrament&preview.text_type=custom)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <!-- use classes with divs to break up the site into editable 'containers'-->
+    <div class="top-container">
+        <img class= "top-cloud" src="images/cloud.png" alt="cloud-image">
+        <h1>I'm Rahul</h1>
+        <h2 class="artist">I'm an <span class="art">ART</span>ist</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image">
+        <img src="images/mountain.png" alt="mountain-image">
+    </div>
 
-    <body>
-        <table cellspacing = "20">
-            <tr>
-                <td> <img src="a picture of me.jpg" alt="a pic of me"></td>
-                <td> <h1>Rahul Venkatesh rocks!!</h1>
-                    <p><em>Founder @ <strong><a href = "https://www.artstation.com/rahulv">Parallax Studios</a></strong></em></p>
-                    <p> I am rahul Venkatesh and I <strong>rock</strong> as noted above</p></td>
-            </tr>
-        </table>
-       
-       
-<hr size="3" noshade>
-
-        <h3>Education Experience</h3>
-
-        <ul>
-            <li><em><strong>Chungoose Academy</strong></em> 1986-78</li>
-                <ul>
-                    <li>spent two years pledging Crappy Rho</li>
-                </ul>
-            <li><em><strong>Gorglonious Chonkers school for the 'tarded</strong></em> </li>
-              <ul>
-                    <li>spent two more years scuba sailing</li>
-              </ul>  
-            </li>
-        </ul>
-
-<hr size="3" noshade>
-
-        <h3>Work Experience</h3>
-
-        <table cellspacing = "5">
-            <thead>
-                <tr>
-                    <th>Dates</th>
-                    <th>Work</th>
-                </tr>
-            </thead>
-            <tr>
-                <td>2012-2016</td>
-                <td>freelance concept artist</td>
-            </tr>
-            <tr>
-                <td>2016-present</td>
-                <td>shoulda been a senior artist</td>
-            </tr>
-        </table>
-
- <hr size="3" noshade>
-
-        <h3>Skills</h3>
-
-        <!-- nested tables.  Add an entire table inside a single 
-        cell. put these in two separate cells to create tables that are
-        side by side and individually editable-->
-        <table>
-            <tr>
-                <td>
-                    <table cellspacing = "5">
-                    <tr>
-                        <td>Painting </td>
-                        <td>⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>lovemaking</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>cattle rearing</td>
-                        <td>⭐</td>
-                    </tr>
-                    <tr>
-                        <td>backflips</td>
-                        <td>⭐⭐</td>
-                    </tr>
-                    </table>
-                </td>
-                <td>
-                    <table cellspacing = "5">
-                        <tr>
-                            <td>Painting </td>
-                            <td>⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>lovemaking</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>cattle rearing</td>
-                            <td>⭐</td>
-                        </tr>
-                        <tr>
-                            <td>backflips</td>
-                            <td>⭐⭐</td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        
-
-        <hr size = "3" noshade>
-
-        <a href="hobbeez.html">My Hobbies</a>
-        <p><a href="Contact.html">Contact Me</a></p>
-        
-    </body>
+    <div class="middle-container">
+        <div class="profile">
+          <img class= "circle" src="images/a picture of me-2.jpg" alt="a picture of me">
+          <h2>Hello.</h2>
+          <p>I am an illustrator and concept artist.</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="palette" src="images/palette.png" alt="painting">
+            <h3 class="skill-h3">Illustration</h3>
+            <p class="skill-description">I love to do the painting and drawing and the sculpting for video gamez. I am a chungoose
+                and i love the ladies.  I fight for valor and coin. The light is but the only way to salvation. 
+            </p>
+        </div>
+        <div class="skill-row">
+            <img class="bike" src="images/motorbike.png" alt="">
+            <h3 class="bike-h3">Motorcycling</h3>
+            <p class="bike-description">Riding and tuning up motorcycles is one of many hobbies. They are fun and handsome machines.  They take me 
+                to places otherwise unreachable.  Motorcycles are da best ya heard. 
+            </p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>I am available for work.</h3>
+          <a class="btn" href="mailto:name@email.com">Contact Me</a>
+        </div>
+    </div>
+    
+      <div class="bottom-container">
+        <a class="footer-link1" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link2" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link3" href="https://www.appbrewery.co/">Website</a>
+        <p class="copyright">© Rahul Venkatesh.</p>
+      </div>
+      
 </html>

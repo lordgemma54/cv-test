@@ -1,0 +1,213 @@
+body {
+    color: #40514E;
+    margin: 0px;
+    text-align: center;
+    font-family:'Merriweather', serif;
+    font-size: 1em;
+    /* merriweather is the font to be used, serif is the default family
+    in case the browser or system doesnt have merriweather*/
+}
+
+h1 {
+    /* when using font percentages, 100% is 16px (or a font size of 16).  therefore if you want
+    90px font size you need 90/16=5.625*100%= 562.5%. Using a percentage makes it a dynamic font vs
+    a hardcoded static font when using pixel values.
+
+    Another way of using dynamic font sizes is to use em.  16px = 100% = 1em.  In this case 
+    90px = 562.5% = 5.625em 
+    
+    percentage and em values are inherited from the parent.  So if you set your font-size to 2em 
+    in the body, and the font-size to 5.625 in the h1, its actually multiplied.
+    
+    The way to override this initial 2em inherited property is to use (r)em or root em.*/
+    line-height: 2;
+    color: #66BFBF ;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    line-height: .5;
+    font-weight: 700;
+    color: #66BFBF;
+    margin: 25px auto 25px auto;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+
+h3 {
+    
+    margin-left: 25px;
+    font-weight: 100;
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
+    margin-bottom: 0px;
+}
+
+hr {
+    border: dotted #979797 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+    
+    /*margin: 40px auto;
+    background-color: transparent;
+    border-style: dotted none none;
+    border-width: 6px;
+    border-top-color: #EAF6F6;
+    width: 5%;*/
+
+}
+
+a {
+    color: #158386;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaf6f6;
+}
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    margin: 100px auto;
+}
+.bottom-container {
+    padding: 30px 0 20px 0;
+    height: 80px;
+    background-color: #3badb1;
+  }
+
+.art {
+    text-decoration: underline;
+    text-decoration: solid;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.circle {
+    margin-top: 50px;
+    border-radius: 100%;
+    max-height:350px;
+    width: auto;
+    height: auto;
+}
+
+.palette {
+    margin: 0 20px 30px 0;
+    float: left;
+    width: 25%;
+}
+
+.bike {
+    margin: 0 0 20px 30px;
+    float: right;
+    width: 25%;
+}
+
+.artist {
+    font-size: 2.5rem;
+}
+
+.skills {
+    
+    margin: 50px auto 100px auto;
+    width: 50%;
+}
+
+.skill-row {
+    text-align: left;
+    margin: 50px auto 50px auto;
+    width: 65%;
+}
+
+.btn {
+    position: relative;
+    top: 50px;
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .copyright {
+    padding: 10px 0;
+    color: #EAF6F6;
+    font-size: .75rem;
+  }
+  /*
+  .footer-link1 {
+    position: relative;
+    top: 40px;
+    right: 40px;
+    color: #11999E;
+    
+  }
+
+  .footer-link2 {
+    position: relative;
+    top: 40px;
+    color: #11999E;
+    
+  }
+  .footer-link3 {
+    position: relative;
+    top: 40px;
+    left: 40px;
+    color: #11999E;
+    
+  }
+  
+
+.skill-h3 {
+    position: relative;
+    top: 100px;
+}
+
+.bike-h3 {
+    
+    position: relative;
+    top: 100px; left: 275px;
+}
+*/
